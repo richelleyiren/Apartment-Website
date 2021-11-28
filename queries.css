@@ -1,0 +1,131 @@
+@media(min-width:375px) and (max-width:812px){
+   
+    header #navbars{
+        flex-direction: column;
+    }
+    .logo{
+        padding-left: 0;
+    }
+    .menu{
+        display: block;
+    }
+    .Navbar__ToggleShow {
+        display: flex;
+    }
+    #navbars{
+        display: none;
+    }
+    .top-division {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4em;
+    }
+    .second-section .top-division{
+        margin-left: 4em;
+    }
+    .top-division img {
+        width: 20em;
+        height: 15em;
+        margin-top: 2em;
+
+    }
+    .bottom-division {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        gap: 2em;
+    }
+    .bottom-division img {
+        width: 16em;
+        height: 12em;
+    }
+
+    .fourth-images {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
+    }
+    .main-fourth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 4em 6em;
+    }
+    .textone h1{
+        font-size: 16px;
+    }
+    .textone p{
+        font-size: 16px;
+    }
+    .textone,
+    .fourthtext {
+        margin: 3em 1.5em;
+        line-height: 2em;
+        padding: 2px;
+    }
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        padding:3px;
+        justify-content: center;
+        align-items: center;
+    }
+    .third-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        background-color: rgb(251, 246, 238);
+        margin-top: 2em;
+        padding-bottom: 2em;
+        
+        
+    }
+   
+    .fourth-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 1em;
+    }
+    .fourth-images {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin-left: 2em;
+        
+    }
+    .main-fourth {
+        display: flex;
+        flex-direction: column;
+        margin: 2em 1px;
+    }
+    
+    .fourthtext h1 {
+        text-transform: uppercase;
+        padding: 1em 0px;
+        color: rgb(226, 174, 95);
+        font-weight: bolder;
+        
+
+    }
+    .main-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 2em 4em;
+        font-size: 12px;
+        color: rgb(226, 174, 95);
+    }
+    .main-footer h1 {
+        margin: 0.5em auto;
+    } */
+
+    }

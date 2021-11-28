@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+ header{
+      display: flex;
+      justify-content: space-around;
+      height: 4em;
+      width: 100%;
+      align-items: center;
+      position: fixed;
+      background-color: white;
+      
+
+ }
+ header ul,
+ a,
+ li,
+ .logo {
+     text-decoration: none;
+     list-style: none;
+     display: inline-block;
+     color: rgb(226, 174, 95);
+ }
+ .logo h3 {
+     text-align: center;
+     font-size: 13px;
+ }
+ .logo {
+     display: flex;
+     flex-direction: column;
+     font-family: "Courgette", cursive;
+ }
+
+ .logo:hover {
+     scale: 1.1;
+ }
+header a {
+     margin: auto 1.5em;
+     transition: ease-in;
+     padding: 10px;
+ }
+ header a:hover{
+     scale: 1.1;
+     background-color: white;
+ }
+ header li {
+    font-size: 1em;
+}
+
+
+
+.menu{
+    padding: 1em;
+    font-size: 1.7em;
+    cursor: pointer;
+    display: none;
+    background-color: transparent;
+    border: none;
+    color:rgb(226, 174, 95);
+}
+
+
+header.scroll{
+    background-color: rgba(36, 36, 36, 0.719);
+    border-bottom: solid 2px rgb(226, 174, 95);
+    
+}
+
+.main-display{
+    background:rgb(0, 0,0, 0.4) url(display.jpeg);
+    min-height: 60em;
+    background-size:cover;  
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 4px rgb(226, 174, 95);
+    
+}
+.main-text{
+    color: white;
+    font-size: 35px;   
+    
+     
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+.view {
+    padding: 0.8em 2.5em;
+    align-items: center;
+    margin-top:1em;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(226, 174, 95);
+    border: solid 3px rgb(226, 174, 95);
+    transition: 1s;
+    border-radius: 0.5em;
+}
+.view:hover{
+    scale: 1.1;
+    background-color: rgb(235, 191, 125);
+}
+.btn-in {
+    padding: 0.8em 2.5em;
+    margin-top: 3em;
+    font-size: 20px;
+    color:white;
+    background-color: transparent;
+    border: solid 3px rgb(226, 174, 95);
+    transition: 0.6s;
+    border-radius: 0.5em;
+}
+.btn-in:hover{
+     background-color: rgb(226, 174, 95);
+     color: white;
+     border: solid 2px rgb(226, 174, 95);
+     scale: 1.1;
+    
+}
+.btn-in i{
+    margin-left: 0.3em;
+}
+
+img{
+    border-radius: 0.8em;
+}
+
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    padding: 6em;
+    border-bottom: solid 2px rgb(226, 174, 95);
+}
+
+.bottom-division{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+.bottom-division img{
+    width: 25em;
+    height: 15em;
+}
+.top-division{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4em;
+    padding-right: 4em;
+}
+
+.top-division img{
+     width: 40em;
+     height: 30em;
+
+}
+
+.third-section .top-division{
+    padding-left: 4em;
+}
+
+.textone,.fourthtext {
+    margin: 3em 4em;
+   line-height: 2em;
+   padding: 1em;
+}
+.textone h1{
+    text-transform: uppercase;
+    padding: 1em 0;
+    color: rgb(226, 174, 95);
+    font-weight: bolder;
+}
+.third-section {
+    display: flex;
+    flex-direction: column;
+    padding: 6em;
+    background-color: rgb(251, 246, 238);
+    border-bottom: solid 2px rgb(226, 174, 95);
+   
+}
+
+.main-fourth{
+    display: flex;
+    flex-direction: row;
+    margin: 4em 6em ;
+}
+.imagebox .view{
+    width: 90%;
+}
+.fourth-section{
+    border-bottom: solid 2px rgb(226, 174, 95);
+}
+
+.fourth-images{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+}
+.fourth-images img{
+     width: 17em;
+     height: 22em;
+}
+.fourthtext h1 {
+    text-transform: uppercase;
+    padding: 1em 0;
+    color: rgb(226, 174, 95);
+    font-weight: bolder;
+}
+.footer {
+    background-color:rgb(251, 246, 238);
+    width: 100%;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 6em;
+    color:rgb(226, 174, 95);
+    gap: 2em;
+
+}
+.main-footer li{
+   list-style: none;
+   line-height: 1.7em;
+}
+.main-footer h1{
+    margin-bottom: 0.5em;
+}
